@@ -1,2 +1,9 @@
 licenseheader.txt
 nb-configuration.xml
+
+#ignore all files in the builds
+build/ 
+
+
+#ignore all files in the builds
+target/ 

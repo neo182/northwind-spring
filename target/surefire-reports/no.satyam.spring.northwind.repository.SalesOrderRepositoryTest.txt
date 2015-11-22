@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: no.satyam.spring.northwind.repository.SalesOrderRepositoryTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.886 sec - in no.satyam.spring.northwind.repository.SalesOrderRepositoryTest
