@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)" preserve-order="false">
+    <classes>
+      <class name="no.satyam.spring.northwind.vomapper.SalesOrderVoMapperTest">
+        <methods>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="populateDatabase"/>
+          <include name="testMapFromDomain"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="testMapToDomain"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

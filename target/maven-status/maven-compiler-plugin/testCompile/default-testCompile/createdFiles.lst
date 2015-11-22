@@ -1,0 +1,16 @@
+no\satyam\spring\northwind\repository\CategoryRepositoryTest.class
+no\satyam\spring\northwind\vomapper\ApplicationUserVoMapperTest.class
+no\satyam\spring\northwind\vomapper\ShipperVoMapperTest.class
+no\satyam\spring\northwind\repository\EmployeeRepositoryTest.class
+no\satyam\spring\northwind\util\DateTimeUtilTest.class
+no\satyam\spring\northwind\repository\SalesOrderRepositoryTest.class
+no\satyam\spring\northwind\repository\SalesOrderDetailsRepositoryTest.class
+no\satyam\spring\northwind\repository\CustomerRepositoryTest.class
+no\satyam\spring\northwind\domain\AbstractIntegrationTest.class
+no\satyam\spring\northwind\repository\SupplierRepositoryTest.class
+no\satyam\spring\northwind\repository\ProductRepositoryTest.class
+no\satyam\spring\northwind\repository\ApplicationUserRepositoryTest.class
+no\satyam\spring\northwind\domain\ApplicationUserTest.class
+no\satyam\spring\northwind\util\LoggerFactoryTest.class
+no\satyam\spring\northwind\vomapper\CustomerVoMapperTest.class
+no\satyam\spring\northwind\repository\ShipperRepositoryTest.class

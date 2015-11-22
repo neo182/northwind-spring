@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2194" started-at="2015-11-18T16:40:18Z" finished-at="2015-11-18T16:40:20Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2194" started-at="2015-11-18T16:40:18Z" finished-at="2015-11-18T16:40:20Z">
+      <class name="no.satyam.spring.northwind.repository.ApplicationUserRepositoryTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()" name="springTestContextBeforeTestClass" is-config="true" duration-ms="5" started-at="2015-11-18T16:40:18Z" finished-at="2015-11-18T16:40:18Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2019" started-at="2015-11-18T16:40:18Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2015-11-18T16:40:20Z">
+        </test-method>
+        <test-method status="PASS" signature="populateDatabase()" name="populateDatabase" is-config="true" duration-ms="7" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="9" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void no.satyam.spring.northwind.repository.ApplicationUserRepositoryTest.testFindByUserName()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testFindByUserName()" name="testFindByUserName" duration-ms="128" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void no.satyam.spring.northwind.repository.ApplicationUserRepositoryTest.testFindByUserName()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void no.satyam.spring.northwind.repository.ApplicationUserRepositoryTest.testSaveApplicationUser()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testSaveApplicationUser()" name="testSaveApplicationUser" duration-ms="15" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void no.satyam.spring.northwind.repository.ApplicationUserRepositoryTest.testSaveApplicationUser()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestClass()" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2015-11-18T16:40:20Z" finished-at="2015-11-18T16:40:20Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
