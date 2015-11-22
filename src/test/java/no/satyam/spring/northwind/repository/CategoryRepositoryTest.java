@@ -27,10 +27,10 @@ public class CategoryRepositoryTest extends AbstractIntegrationTest {
 
     @Test
     public void testFindByName() {
-
+        // dette  er kun en test
         Category categoryFound = repository.findByName("Beverages");
         logger.debug("categoryFound : " + categoryFound.toString());
-        assertNotNull(categoryFound);
+        assertNotNull(categoryFound); 
 
     }
     
